@@ -20,7 +20,7 @@ class GameLoop():
         host = socket.gethostname()
         port = 5670
         self.s.settimeout(20)
-        self.s.connect(("172.20.10.4",port))
+        self.s.connect(("***.**.**.*",port))
         pg.init()
         pg.mixer.init()
         self.screen = pg.display.set_mode((WIDTH, HEIGHT))
